@@ -1,0 +1,30 @@
+# Built-in official projects; edit arch/build or repo here as needed.
+# A shorthand entry is also supported, e.g. "My Addon": owner/repo
+"Termux":
+  repo: termux/termux-app
+  arch: ["!universal"]
+"Termux:API":
+  repo: termux/termux-api
+"Termux:Boot":
+  repo: termux/termux-boot
+"Termux:Float":
+  repo: termux/termux-float
+"Termux:Styling":
+  repo: termux/termux-styling
+"Termux:Tasker":
+  repo: termux/termux-tasker
+"Termux:Widget":
+  repo: termux/termux-widget
+"Termux:X11":
+  repo: termux/termux-x11
+
+# Optional extra repositories:
+# "My Addon":
+#   repo: owner/repo
+#   arch: ["arm64"]       # Substring filter against the original APK filename
+#   build: false           # Accepted for forward compatibility; build mode is not implemented
+#
+# Negative filters work too:
+# "My Addon without universal":
+#   repo: owner/repo
+#   arch: ["!universal"]  # Negative-only list: include everything except matching files

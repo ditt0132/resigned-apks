@@ -17,6 +17,8 @@
   repo: termux/termux-widget
 "Termux:X11":
   repo: termux/termux-x11
+"Termux:GUI":
+  repo: termux/termux-gui
 
 # Optional extra repositories:
 # "My Addon":

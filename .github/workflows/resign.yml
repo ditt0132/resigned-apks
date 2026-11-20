@@ -47,7 +47,7 @@ jobs:
 
       - name: Set up Android SDK
         if: steps.check.outputs.needs_update == 'true'
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Install apksigner
         if: steps.check.outputs.needs_update == 'true'
